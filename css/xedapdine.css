@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: muli,Mulish,source sans pro,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+/* NAV */
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    padding: 0 100px;
+    box-sizing: border-box;
+
+}
+
+nav .brand {
+    float: left;
+    height: 100%;
+    line-height: 80px;
+}
+
+nav .brand h2 {
+
+    color: #000;
+}
+
+nav .brand>a img {
+    width: 150px;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+nav>ul {
+    float: left;
+    display: flex;
+    margin: -10px;
+    padding: -10px;
+    margin-left: 25px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    position: relative;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s
+}
+
+nav ul li a:hover {
+    color: #cb2a1d;
+    text-decoration: none;
+}
+nav .sub-nav{
+   display: block;
+   background-color: #000;
+   margin-top: -10px;
+   padding: 0;
+   display: none;
+}
+nav .sub-nav li{
+   list-style-type: none;
+   float: none;
+   background: #fff;
+   padding: 3px 15px;
+}
+nav .sub-nav li a{
+   text-decoration: none;
+   color: #000;
+}
+nav li:hover .sub-nav{
+   display: block;
+}
+nav li i{
+  font-size: 10px;
+}
+/* END NAV */
+/* HEADER  */
+.header{
+    min-width: 650px;
+    background-color: #ededed;
+    position: relative;
+
+}
+
+.header .container{
+   min-height: 650px;
+   display: flex;
+
+}
+
+.header_left{
+    position: relative;
+    width: 50%;
+
+}
+
+.header_left .chim {
+
+}
+.header_left .chim {
+    font-family: muli,Mulish,source sans pro,sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    width: 100%;
+    line-height: 251px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #cfcfcf;
+    opacity: .3;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -25%;
+}
+.header_left h6{
+    font-weight: 100;
+    font-size: 48px;
+    width: 100%;
+    line-height: 251px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -25%;
+}
+.header_left span{
+    font-family: muli,Mulish,source sans pro,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    width: 100%;
+    line-height: 251px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15%;
+}
+
+.header_right{
+    width: 50%;
+    position: relative;
+}
+
+.hinhanh{
+    position: absolute;
+    top: 10%;
+}
+
+.muangay{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 12px;
+}
+.muangay p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 16px;
+}
+.muangay::after{
+    content: "";
+    height: 2px;
+    width: 50%;
+    margin: 170px;
+    position: absolute;
+    background: linear-gradient(90deg,#cb2a1d,#fff);
+}
+
+/* END HEADER */
+/* CONTACT */
+.contact{
+
+
+}
+
+.container{
+display: flex;
+
+}
+
+.contact_left{
+    width: 45%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.row{
+
+
+}
+.row .col-sm-6{
+    padding: 15px;
+}
+.row h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.row p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.contact_right{
+    width: 55%;
+    position: relative;
+    margin-left: 36px;
+}
+
+.slide_show{
+    position: absolute;
+    top: 15%;
+   
+}
+
+/* END CONTACT */
+/* Gioi Thieu */
+.gioithieu{
+    background: #DBE1E3;
+    padding: 100px;
+    position: relative;
+}
+.gioithieu .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gioithieu_header{
+
+
+}
+.gioithieu .gioithieu_text{
+    text-align: center;
+    text-transform: uppercase;
+}
+.gioithieu_text p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #707070;
+    letter-spacing: 4px;
+}
+.gioithieu_text h1{
+    font-size: 36px;
+    color: #cb2a1d;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.gioithieu .ovuong{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 60px;
+    width: 30%;
+}
+/* end gioi thieu */
+/* VAN HANH */
+.vanhanh{
+    background-color: #778fa1;
+
+}
+
+.container{
+
+
+}
+
+.vanhanh_left{
+    margin-top: 70px;
+    width: 40%;
+
+}
+
+.text{
+
+
+}
+.text h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.vanhanh_right{
+    position: relative;
+    width: 60%;
+
+}
+.title h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 36px;
+    margin: 60px;
+    margin-left: 80px;
+    padding: 31px;
+  
+}
+.vanhanh_right .hinhanh{
+    position: absolute;
+    top: 30%;
+
+}
+.vanhanh_right .hinhanh img{
+    margin: 4px;
+    width: 120%;
+}
+/* END VAN HANH */
+/* THONG SO */
+.thongso{
+    margin-top: 100px;
+    background-color: #000;
+    color: #ddd;
+}
+.thongso .container{
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    color: #fff;
+    font-size: 34px;
+    font-family: 400;
+    line-height: 170%;
+    padding: 12px;
+}
+.text{
+
+}
+
+.row{
+
+}
+
+.ochua{
+    color: #8b8b8b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 24px;
+}
+
+.icon  .ti{
+    font-size: 34px;
+    padding: 12px;
+}
+
+
+.text_thongso{
+
+}
+.text_thongso h3{
+    font-size: 16px;
+    margin: 0;
+}
+.text_thongso p{
+    font-size: 12px;
+    margin: 0;
+    padding: 8px 0;
+}
+
+/* END THONG SO */
+/* FOOTER */
+.footer {
+    background-color: #dddddd;
+}
+
+.footer img {
+    margin: 40px 50px 50px 45%;
+    height: 50px;
+}
+
+.footer .row {
+    margin-left: 50px;
+}
+
+.footer .contant {
+    font-size: 16px;
+    font: bold;
+    font-weight: 700;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.footer ul li:hover a {
+    color: #cb2a1d;
+}
+
+.footer .ti i {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+}
+
+.footer i[class*="ti-"] {
+   font-size: 20px;
+
+
+}
+
+.footer .icon {
+    display: flex;
+   margin: 12px 44px;
+
+}
+
+.footer .icon li {
+   margin: 2px;
+    border-radius: 50%;
+    padding: 7px 10px;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.footer .icon li:hover{
+    color: brown;
+    transition: 0.5s;
+}
+.designby{
+   text-align: center;
+   background-color: rgb(24, 24, 24);
+}
+.designby i{
+   color: rgb(126, 126, 126);
+   text-align: center;
+}

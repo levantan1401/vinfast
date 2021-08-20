@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://storage.googleapis.com/vinfast-data-01/Vinfast-logo.png" type="image/png" />
+    <title>Đặt Lịch - Bảo Hành Tận Tình</title>
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./css/datlich.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <!-- NAVIGATION -->
+        <nav class="border-dark border-bottom" style="display: block;">
+            <div class="brand">
+                <a href="./index.html">
+                    <img src="./img/Vinfast/oto/logo.png" alt="logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="">Ô tô <i class="ti-angle-down " aria-hidden="true"></i></a>
+                    <ul class="sub-nav shadow-lg p-3 mb-5 bg-white rounded">
+                        <li><a href="./Oto.html">VF e34</a></li>
+                        <li><a href="#">Prisdent</a></li>
+                        <li><a href="#">LUX SA 2.0</a></li>
+                        <li><a href="#">LUX A 2.0</a></li>
+                        <li><a href="#">Fadil</a></li>
+                    </ul>
+                </li>
+                <li><a href=""></i> Xe máy điện <i class="ti-angle-down" aria-hidden="true"></i></a>
+                    <ul class="sub-nav shadow-lg p-3 mb-5 bg-white rounded">
+                        <li><a href="">Theon</a></li>
+                        <li><a href="">KaraS</a></li>
+                        <li><a href="">Frezi</a></li>
+                        <li><a href="">Impes</a></li>
+                        <li><a href="">Ludo</a></li>
+                    </ul>
+                </li>
+                <li><a href=""></i> Ưu đãi</a></li>
+                <li style="margin-right: 250px;"><a href="">Dịch Vụ <i class="ti-angle-down" aria-hidden="true"></i></a>
+                    <ul class="sub-nav shadow-lg p-3 mb-5 bg-white rounded">
+                        <li><a href="">Bảo dưỡng hậu mãi</a></li>
+                        <li><a href="">Đặt lịch bảo dưỡng</a></li>
+                    </ul>
+                </li>
+                <li><a href=""><i class="ti ti-shopping-cart-full" style="font-size:15px ;"></i></a></li>
+                <li><a href="./dangNhap_DangKy.html"> <i class="ti-user" style="font-size:15px ;"></i></a></li>
+            </ul>
+        </nav>
+        <!-- END NAVIGATION -->
+        <!-- DAT LICH -->
+        <div class="datlich">
+            <div class="container">
+                <div class="title">
+                    ĐẶT LỊCH BẢO DƯỠNG
+                </div>
+                <div class="bang">
+                    <form method="get" action="">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="chude">
+                                    <strong>1</strong>
+                                    <p>Thông tin khách hàng</p>
+                                </div>
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Họ Tên: <span
+                                                style="color:red;">*</span> </label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Email:<span
+                                                style="color:red;">*</span></label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">SĐT:<span
+                                                style="color:red;">*</span></label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword"
+                                                placeholder="Số điện thoại">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="chude">
+                                    <strong>2</strong>
+                                    <p>Thông tin xe</p>
+                                </div>
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Mẫu Xe:<span
+                                                style="color:red;">*</span></label>
+
+                                        <div class="col-sm-10">
+                                            <select class="form-control" id="sel1">
+                                                <option>Xe FADIL</option>
+                                                <option>Xe LUX SA.2</option>
+                                                <option>Xe LUX SA</option>
+                                                <option>Xe VIN - BA</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Số KM<span
+                                                style="color:red;">*</span></label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail"
+                                                placeholder="Số Khuyến Mãi">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Biển Xe:<span
+                                                style="color:red;">*</span></label>
+                                        <div class="col-sm-10">
+                                            <input type="password" class="form-control" id="inputPassword"
+                                                placeholder="Biển Số Xe">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="chude">
+                                    <strong>3</strong>
+                                    <p>Lựa chọn dịch vụ</p>
+                                </div>
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Dịch Vụ<span
+                                                style="color:red;">*</span></label>
+
+                                        <div class="col-sm-10">
+                                            <select class="form-control" id="sel1">
+                                                <option>Bảo Dưỡng</option>
+                                                <option>Bảo Dưỡng</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Ghi Chú<span
+                                                style="color:red;">*</span></label>
+                                        <div class="col-sm-10">
+                                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="chude">
+                                    <strong>4</strong>
+                                    <p>Chọn địa điểm, Đặt Lịch</p>
+                                </div>
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Tại:<span
+                                                style="color:red;">*</span></label>
+
+                                        <div class="col-sm-5">
+                                            <select class="form-control" id="sel1">
+                                                <option>Xe FADIL</option>
+                                                <option>Xe LUX SA.2</option>
+                                                <option>Xe LUX SA</option>
+                                                <option>Xe VIN - BA</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <select class="form-control" id="sel1">
+                                                <option>Xe FADIL</option>
+                                                <option>Xe LUX SA.2</option>
+                                                <option>Xe LUX SA</option>
+                                                <option>Xe VIN - BA</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group row">
+                                        <div class="col-sm-2"></div>
+                                        <div class="col-sm-10">
+
+                                            <select class="form-control" id="sel1">
+                                                <option>Xe FADIL</option>
+                                                <option>Xe LUX SA.2</option>
+                                                <option>Xe LUX SA</option>
+                                                <option>Xe VIN - BA</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputPassword" class="col-sm-2 col-form-label">Ngày:<span
+                                                style="color:red;">*</span></label>
+                                        <div class="col-sm-5">
+                                            <input type="date"  class="form-control" placeholder="Ngày">
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <input type="time" class="form-control" id="inputPassword"
+                                                placeholder="Giờ">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- END DAT LICH -->
+        <div class="footer">
+            
+            <img src="./img/Vinfast/logo.png" alt="logo vinfast">
+            <div class="row">
+                <div class="col-sm-3">
+                    <ul>
+                        <li class="contant">Về Vinfast</li>
+                        <li><a href=""> Giới thiệu về Vinfast</a></li>
+                        <li><a href="">Tin tức </a> </li>
+                        <li><a href="">Ưu đãi </a> </li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-3">
+                    <ul>
+                        <li class="contant">Xe ô tô</li>
+                        <li><a href="">Prentaci </a> </li>
+                        <li><a href="">LUX SA 2.0 </a> </li>
+                        <li><a href="">LUX A2.0 </a> </li>
+                        <li><a href="">Fadil </a> </li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-3">
+                    <ul>
+                        <li class="contant">Xe máy điện</li>
+                        <li><a href="">Thenol </a> </li>
+                        <li><a href="">KalaS </a> </li>
+                        <li><a href="">Flexi </a> </li>
+                        <li><a href="">Ludo </a> </li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-3">
+                    <ul>
+                        <li class="contant">Hỗ trợ</li>
+                        <li><a href="">Câu hỏi thường gặp </a> </li>
+                        <li><a href="">Hệ thống phân phối </a> </li>
+                        <li><a href="">Đặt lịch bảo dưỡng </a> </li>
+                        <li><a href="">Liên hệ </a> </li>
+                    </ul>
+                </div>
+                <div class="icon ">
+                    <li><i class="ti-facebook"></i></li>
+                    <li><i class="ti-youtube"></i></li>
+                    <li><i class="ti-skype"></i></li>
+                    <li><i class="ti-google"></i></li>
+                    <li><i class="ti-instagram"></i></li>
+                </div>
+            </div>
+            
+            <div class="designby" style="background-color:rgb(255, 255, 255)  ;">
+                <i><span style="color: red; margin-right: 4px;"> Design By </span>Le Van Tan</i>
+            </div>
+        </div>
+        <!-- FOOTER -->
+    </div>
+</body>
+
+</html>
